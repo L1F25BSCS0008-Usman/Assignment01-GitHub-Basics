@@ -6,8 +6,12 @@
 using namespace std;
 int main() {
 	int sum = 0;
-	for (int i = 1; i <= 50; i++) {
+	int n = 50;
+	for (int i = 1; i <= n; i++) {
 		sum = sum + i;
 	}
-	cout << "Sum of first 50 natural number=" << sum << endl;
+	cout<<"Sum of first 50 natural number="<<sum<<endl;
+	int formulasum = n * (n + 1) / 2;
+	cout << "Sum using formula=" << formulasum << endl;
 }
+
